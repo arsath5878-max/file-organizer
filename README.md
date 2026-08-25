@@ -1,18 +1,23 @@
 # File Organizer
 
-This is a simple Python project that organizes files into folders based on their extensions.
+This is a simple Python project that automatically organizes files into
+different folders based on their file type.
+
+For example, if a folder contains images, videos, PDFs, and Python files,
+the program will create separate folders and move the files into them.
 
 ## Features
 
-- Select a folder
-- Preview files
-- Organize files
+- Select any folder from the computer
+- Preview the files before organizing
+- Organize files based on their extensions
+- Create folders automatically
 - Handle duplicate file names
-- Show file counts
-- Undo the last organization
-- Multiple files can be undone one operation at a time
+- Show how many files were organized
+- Undo the previous organization
+- Simple graphical interface using Tkinter
 
-## Project files
+## Project Structure
 
 ```text
 File_Organizer/
@@ -23,32 +28,6 @@ File_Organizer/
 ├── config.py
 ├── history.py
 └── README.md
-```
-
-## Run the project
-
-Open the project folder in VS Code.
-
-Run:
-
-```bash
-python main.py
-```
-
-No external packages are needed.
-
-## Basic process
-
-```text
-Select Folder
-      ↓
-Preview
-      ↓
-Check Extension
-      ↓
-Find Category
-      ↓
-Create Folder
       ↓
 Move File
       ↓
